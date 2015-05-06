@@ -10,7 +10,8 @@
 
 @interface ThirdOptionsViewController ()
 
-@property (nonatomic, weak) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 
 @end
 
